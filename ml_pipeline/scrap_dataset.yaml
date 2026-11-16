@@ -1,0 +1,17 @@
+# ScrapScan 2.0 - Ultralytics YOLOv8 Dataset Configuration
+# Defines paths and class names for scrap material object detection.
+
+path: ../dataset # Dataset root directory
+train: images/train # Train images relative to 'path'
+val: images/val # Val images relative to 'path'
+test: images/test # Optional test images
+
+# 7 Core Scrap Material Classes
+names:
+  0: Plastic Bottle / PET
+  1: Aluminum Can & Tins
+  2: Paper/Cardboard
+  3: Iron & Steel
+  4: Copper & Wiring
+  5: E-Waste & Circuitry
+  6: Glass Bottles
